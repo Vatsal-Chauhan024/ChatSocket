@@ -1,6 +1,6 @@
 import { io } from "socket.io-client";
 
-const ENDPOINT = "http://localhost:3000";
+const ENDPOINT = "https://chatsocket-1-7r99.onrender.com";
 const socket = io(ENDPOINT, { transports: ["websocket"] });
 
 export default socket;
